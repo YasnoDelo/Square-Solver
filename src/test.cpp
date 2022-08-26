@@ -12,13 +12,10 @@ if (!(condition))                                                               
 const char *INPUT_FILE_WITH_TESTS = "res/proverka.txt";
 
 //============================================================================================
-///@brief  Запуск тестового режима
+/// @brief  Запуск тестового режима
 ///
-///@note
-///
-///@return код ошибки
+/// @return код ошибки
 //============================================================================================
-
 Errors test_of_setter()
 {
     FILE *f_input = fopen(INPUT_FILE_WITH_TESTS, "r");
@@ -34,11 +31,8 @@ Errors test_of_setter()
 ///
 ///@param [in] f_input файл с входными данными
 ///
-///@note
-///
 ///@return             код ошибки
 //============================================================================================
-
 Errors read_file(FILE *f_input)
 {
     check((f_input != 0), arg_function_is_nullptr)
