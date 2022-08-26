@@ -6,7 +6,6 @@
 #include "../include/solve_func.h"
 #include "../include/test.h"
 
-
 const int N_KOEFF = 3;
 
 int main()
