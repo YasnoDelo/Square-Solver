@@ -8,6 +8,14 @@
 
 const int N_KOEFF = 3;
 
+//============================================================================================
+///@brief Решение квадратных уравнений
+///
+///@author Журавенль Никита (https://github.com/YasnoDelo)
+///"
+///@return
+//============================================================================================
+
 int main()
 {
 	double koeff[N_KOEFF] = {};
@@ -17,7 +25,7 @@ int main()
 
 	Errors error = no_error;
 
-	test_of_setter();
+	//test_of_setter();
 
     int is_run_solver_quadr_eq = 1;
 
