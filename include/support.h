@@ -2,7 +2,7 @@
 #define support
 #include <stdio.h>
 
-enum NumberRoots : int
+enum NumberRoots : int /// @brief Количество решений
 {
 	inf_root_eq = -1,
 	zero_root_eq,
@@ -11,7 +11,7 @@ enum NumberRoots : int
     strange_case
 };
 
-enum Errors
+enum Errors /// @brief Набор возможных ошибок
 {
     no_error,
     arg_function_is_nullptr,
